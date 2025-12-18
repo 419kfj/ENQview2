@@ -1,0 +1,29 @@
+Package: ENQview2
+Title: View the ENQ data and tools
+Version: 0.0.1
+Authors@R: 
+    person("kazuo", "fujimoto", , "kazuo.fujimoto2007@gmail.com", role = c("aut", "cre"))
+Description: View the ENQ data (one paragraph).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports:
+    GDAtools (>= 2.2),
+    shiny,
+    FactoMineR,
+    dplyr,
+    ggplot2,
+    magrittr,
+    tibble,
+    vcd,
+    GGally,
+    DT,
+    gtsummary,
+    gt,
+    readxl,
+    showtext,
